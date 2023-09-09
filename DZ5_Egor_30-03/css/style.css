@@ -1,0 +1,146 @@
+a {
+    text-decoration: none;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 150%;
+}
+
+.main {
+    height: 100vh;
+    background-image: url('../images/image-main.webp');
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    text-align: center;
+    padding-top: 220px;
+    padding-bottom: 361.39px;
+    color: #ffffff;
+
+}
+
+.main h1 {
+    font-size: 4em;
+}
+
+.main p {
+    font-size: 16px;
+    line-height: 155%; /* 24.8px */
+    width: 867px;
+    margin: 24px auto 45px;
+}
+
+.link_button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px 30px;
+    background-color: #086CF9;
+    border-radius: 4px;
+}
+
+.info {
+    display: none;
+}
+
+.main .link_button{
+    width: 175px;
+    height: 43.6px;
+    margin: 0 auto;
+}
+
+.course .container {
+    margin-top: 292px;
+    display: flex;
+    justify-content: space-between;
+    gap: 38px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 519px;
+    font-size: 16px;
+    color: #222;
+}
+
+.paragraph {
+    margin-bottom: 16px;
+    color: #555;
+    line-height: 155%; /* 24.8px */
+}
+
+.paragraph_2 {
+    margin-bottom: 32px;
+    font-size: 20px;
+    color: #333;
+    line-height: 140%; /* 24px */
+}
+
+.text .link_button {
+    margin-right: auto;
+}
+
+.course .container {
+    margin-bottom: 128px;
+}
+
+.video {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    width: 595px;
+    height: 433px;
+    background-image: url(/images/video_img.webp);
+    border-radius: 4px;
+}
+
+.circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    width: 80px;
+    height: 80px;
+    background-color: #fff;
+    border-radius: 40px;
+}
+
+.play {
+    width: 24px;
+    height: 24px;
+}
+
+.work .container {
+    text-align: center;
+    margin-bottom: 128px;
+}
+
+.work .section_header {
+    margin-bottom: 12px;
+}
+
+.work .paragraph {
+    width: 423px;
+    margin: 0 auto 48px;
+    font-size: 16px;
+}
+
+.parts {
+    display: flex;
+    gap: 53px;
+}
+
+.part_img {
+    margin-bottom: 24px;
+}
+.part_header {
+    margin-bottom: 16px;
+    font-size: 24px;
+}
+
+.part_text {
+    line-height: 155%; /* 21.7px */
+}

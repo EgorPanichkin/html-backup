@@ -1,0 +1,23 @@
+#one {
+    color: yellow;
+}
+
+.one {
+    color: purple;
+}
+
+div {
+    color: red !important;
+    /* color: #2b5858; */
+    /* color: rgba(106, 73, 73, 0.656); */
+}
+
+div {
+    color: blue;
+}
+
+p {
+    width: 500px;
+    text-align: justify;
+    line-height: 22px;
+}

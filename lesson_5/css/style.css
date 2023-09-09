@@ -1,0 +1,21 @@
+.main{
+    height: 100vh;
+    background-image: url(../images/img-main.webp);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    text-align: center;
+    padding-top: 220px;
+    color: white;
+}
+
+.main h1 {
+    font-size: 4em;
+}
+
+.main p {
+    font-size: 16px;
+    line-height: 155%;
+    width: 867px;
+    margin: 24px auto 45px;
+}

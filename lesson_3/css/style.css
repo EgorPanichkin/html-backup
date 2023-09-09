@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 14px;
+}
+
+.one {
+    width: 500px;
+    background-color: #2aa6db;
+    margin: 20px auto;
+    border: 5px solid red;
+    padding: 20px;
+}
+
+.parent {
+    font-size: 2em;
+}
+
+.parent div {
+    font-size: 2em;
+}
+
+.rel {
+    position: relative;
+    width: 800px;
+    height: 800px;
+    margin: 50px auto;
+    background-color: #14ca48;
+}
+
+.child-1 {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    background-color: #361ccc;
+    z-index: 1;
+}
+
+.child-2 {
+    position: absolute;
+    top: 20px;
+    left: 150px;
+    width: 400px;
+    height: 400px;
+    background-color: #a9cc1c;
+}

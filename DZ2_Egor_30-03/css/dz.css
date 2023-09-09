@@ -1,0 +1,37 @@
+body{
+    margin-left: auto;
+    margin-right: auto;
+    width: 470px;
+}
+
+/* h1{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: blue;
+}
+
+h2{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: blue;
+} */
+
+.headers{
+    text-align: center;
+    color: blue;
+}
+
+p{
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 29px;
+    font-family: sans-serif;
+}
+
+b{
+    color: red; 
+}
+
+i{
+    color: blue;
+}

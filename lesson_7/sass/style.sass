@@ -1,0 +1,100 @@
+.main 
+    height: 100vh
+    background-image: url('../images/image-main.webp')
+    background-repeat: no-repeat
+    background-position: top center
+    background-size: cover
+    text-align: center
+    padding-top: 220px
+    color: #ffffff
+
+    h1
+      font-size: 4em
+
+    p 
+      font-size: 16px
+      line-height: 155% /* 24.8px */
+      width: 867px
+      margin: 24px auto 45px
+
+.info 
+    width: 1138px
+    margin: -56px auto 0
+    background-color: #ffffff
+    border-radius: 4px
+    box-shadow: 0 11px 35px 0 rgba(0, 0, 0, 0.08)
+    display: flex
+    justify-content: space-between
+    padding: 56px 88px
+
+    &__block 
+        display: flex
+        align-items: center
+        gap: 24px
+
+        span 
+            display: block
+            color: #222
+            font-size: 2.571em
+            font-weight: 700
+            margin-bottom: 8px
+
+        p
+            color: #086CF9
+            font-size: 16px
+            line-height: 155% /* 24.8px */
+
+.course 
+    margin-top: 140px
+    &__inner
+        display: flex
+        justify-content: space-between
+        gap: 38px
+    &__image 
+        width: 595px
+        height: 433px
+        background-image: url('../images/image-course.jpg')
+        background-repeat: no-repeat
+        background-position: center
+        background-size: cover
+        display: flex
+        align-items: center
+        justify-content: center
+        a
+            display: flex
+            align-items: center
+            justify-content: center
+            width: 80px
+            height: 80px
+            background-color: #fff
+            border-radius: 50%
+
+.work 
+    margin-top: 128px
+    margin-bottom: 128px
+
+.work .caption 
+    width: 423px
+    margin: 12px auto 48px
+
+.work__bottom 
+    display: flex
+    justify-content: space-between
+
+.work__item 
+    width: 248px
+    transition: 1s
+    &:nth-child(3)
+       h3
+         color: red
+// .work__bottom:hover .work__item.translate 
+//     transform: translate(20px, 20px)
+
+// .work__bottom:hover .work__item.rotate 
+//     transform: rotate(45deg)
+
+// .work__bottom:hover .work__item.scale 
+//     transform: scale(1.2)    
+
+// .work__bottom:hover .work__item.skew 
+//     transform: skew(20deg, 0)    
